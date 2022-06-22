@@ -10,6 +10,7 @@ namespace AddressBook
         {
             contacts = new Contact[size];
         }
+        /*
         public void AddnewContact()
         {
             Contact contact = new Contact();
@@ -29,7 +30,7 @@ namespace AddressBook
             contacts[0] = contact;
 
 
-        }
+        }*/
 
         public void PrintAllContacts()
         {
