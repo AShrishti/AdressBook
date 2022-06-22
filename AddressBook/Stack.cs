@@ -26,6 +26,7 @@ namespace AddressBook
 			obj[++top] = data;
 			return true;
 		}
+		//pop
 		public int Pop()
 		{
 			if (top == -1)
