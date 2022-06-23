@@ -35,6 +35,19 @@ namespace AddressBook
             }
             return -1;
         }
+
+        public bool Add(int data)
+        {
+            Node n = new Node(data);
+            if (head == null)
+            {
+                head = n;
+                return true;
+            }
+            n.next = head;
+            head = n;
+            return true;
+        }
         public bool Insert(int ind, int data)
         {
             Node n = new Node(data);
